@@ -1,0 +1,86 @@
+.container {
+    width: clamp(300px, 50vw, 400px);
+    transition: border-color 0.3s ease-in-out;
+    @apply relative h-12 rounded-sm border-[1.5px] border-input-color;
+}
+.placeholder {
+    transition: all 0.15s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @apply absolute px-2 text-sm font-medium text-right select-none right-3 top-3;
+}
+.notch {
+    background: white;
+    @apply -top-3;
+}
+.active {
+    @apply border-input-active-color;
+}
+.error {
+    @apply border-input-error-color;
+}
+.notchError {
+    @apply text-input-error-color;
+}
+.rtl {
+    text-align: right !important;
+}
+
+.selected {
+    @apply relative flex items-center justify-between h-full pl-3 text-sm font-medium cursor-pointer;
+}
+.selectItems {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+    @apply absolute z-10 flex flex-col w-full h-0 overflow-hidden bg-white rounded-md top-12;
+}
+.selectItem {
+    @apply px-4 py-3 text-sm bg-white select-none;
+    transition: background 0.15s ease-out;
+}
+.selectItem:hover {
+    @apply bg-gray-200;
+}
+
+.tagsContainer {
+    @apply flex items-center gap-2;
+}
+.tagItem {
+    @apply flex items-center gap-1 px-2 py-1 bg-gray-200 rounded-md cursor-pointer;
+}
+.tagItem:nth-child(2) {
+    @apply mr-3;
+}
+.removeIcon {
+    @apply w-3 h-3;
+}
+.tag {
+    @apply text-xs font-bold;
+}
+
+.checkboxContainer {
+    @apply flex flex-col gap-5;
+}
+.checkbox {
+    width: max-content;
+    @apply flex items-center gap-2 cursor-pointer;
+}
+.checkbox .box {
+    @apply w-5 h-5 pt-0.5 rounded-sm flex items-start justify-center border-2 border-slate-400 duration-75;
+}
+.checkbox .check {
+    @apply w-1.5 h-3;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.checkbox .boxActive {
+    border: 0;
+    @apply bg-sky-600;
+}
+.checkbox .error {
+    @apply border-2 border-input-error-color;
+}
+.checkbox .textError {
+    @apply text-input-error-color;
+}
+.checkbox .label {
+    @apply text-base font-medium;
+}

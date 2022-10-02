@@ -1,0 +1,67 @@
+{
+  "download": "Download",
+  "try_again": "Try Again",
+  "downloading": "Downloading...",
+  "loading": "Loading...",
+  "updating": "Updating...",
+  "yes": "Yes",
+  "no": "No",
+  "export": "Export",
+  "exporting": "Exporting",
+  "change_locale": "Change Locale",
+  "submit": "Submit",
+  "add": "Add",
+  "click": "Click",
+  "admin": "Admin",
+  "search": "Search",
+  "search_term": "Search Term",
+  "apply": "Apply",
+  "reset": "Reset",
+  "search_by": "Search By",
+  "sort_by": "Sort By",
+  "ascending": "Ascending",
+  "descending": "Descending",
+  "preview": "Show",
+  "edit": "Edit",
+  "overview": "Overview",
+  "not_found": "Nothing Was Found",
+  "cancel": "Cancel",
+  "continue": "Continue",
+  "pagination": {
+    "results": "Results",
+    "to": "to",
+    "of": "of"
+  },
+  "nav": {
+    "home": "Home",
+    "admins": "Admins",
+    "logout": "Logout",
+    "logout_msg": "Are you sure you want to log out?",
+    "profile": "Profile"
+  },
+  "messages": {
+    "500_err": "Something Went Wrong",
+    "empty_fields": "Please Fill All Fields",
+    "images_max_length": "Maximum number of 8 Images is allowed",
+    "min_3_chars": "Minimum of 3 Characters",
+    "change_something": "Please Change Something Before Submitting",
+    "confirm_update": "Confirm Changes?",
+    "confirm_update_message": "Modifying active state is dangerous and can cause issues. are you sure you want to continue?",
+    "no_duped_cities": "make sure to never add two cities with the same name",
+    "no_duped_cities_hint": "if two cities have the same name like \"Alma, New Brunswick\" and \"Alma, Quebec\", you can prefix city name with the province name"
+  },
+  "theme": "Theme",
+  "dark": "Dark",
+  "light": "Light",
+  "system": "System",
+  "app": {
+    "title": "WishWork Admin Panel"
+  },
+  "group": {
+    "all": "All",
+    "active": "Active",
+    "finished": "Finished",
+    "cancelled": "Cancelled"
+  },
+  "groupby": "Group by"
+}

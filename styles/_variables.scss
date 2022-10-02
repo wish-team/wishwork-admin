@@ -1,0 +1,35 @@
+$FONT_BASE: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+$FONT_FA: IRANSansX, Montserrat, $FONT_BASE;
+$FONT_EN: Montserrat, $FONT_BASE;
+
+$backgroundColor: #ffffff;
+
+//Header
+$headerColor: #1a1a1a;
+$headerSecondaryColor: #ffc702;
+$headerHeight: 64px;
+$footerHeight: 96px;
+
+//Texts
+$titleColor: #1a1a1a;
+$subtitleColor: #303030;
+
+//Inputs
+$inputBorderColor: #d1d1d1;
+$inputActiveColor: #35c1cd;
+$inputTextColor: #1a1a1a;
+$inputPlaceholderColor: #1a1a1a;
+$inputErrorColor: #c51217;
+$checkboxBorderColor: #1a1a1a;
+
+//Button
+$primaryBackgroundColor: #1a1a1a;
+$primaryHoverColor: #474747;
+$primaryPressedColor: #000;
+
+$secondaryBackgroundColor: #fff;
+$secondaryBorderColor: #1a1a1a;
+$secondaryHoverColor: #1a1a1a;
+$secondaryPressedColor: #fff;

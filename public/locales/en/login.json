@@ -1,0 +1,11 @@
+{
+  "login_title": "Admin Login",
+  "header": "Welcome!",
+  "button": "Login",
+  "email": "email",
+  "password": "password",
+  "email_format_err": "Invalid Email Format",
+  "password_format_err": "Invalid Password Format",
+  "invalid_credentials_err": "Invalid Credentials",
+  "500_err": "Something Went Wrong"
+}

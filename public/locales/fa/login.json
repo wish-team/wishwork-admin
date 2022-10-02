@@ -1,0 +1,11 @@
+{
+  "login_title": "ورود ادمین",
+  "header": "خوش آمدید!",
+  "button": "ورود",
+  "email": "ایمیل",
+  "password": "رمز عبور",
+  "email_format_err": "فرمت ایمیل اشتباه است",
+  "password_format_err": "فرمت رمز عبور اشتباه است",
+  "invalid_credentials_err": "اطلاعات وارد شده صحیح نمی باشد",
+  "500_err": "خطایی رخ داده است"
+}
