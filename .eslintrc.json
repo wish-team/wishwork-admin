@@ -1,15 +1,9 @@
 {
-  "plugins": ["@typescript-eslint", "prettier"],
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "airbnb-typescript",
-    "react-app",
-    "next/core-web-vitals",
-    "prettier"
-  ],
+  "plugins": ["@typescript-eslint"],
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": ["./tsconfig.json"]
+    "project": ["./tsconfig.json", "./next.config.js"]
   },
   "settings": {
     "import/resolver": {
@@ -30,39 +24,18 @@
         "args": "after-used"
       }
     ],
-    "@typescript-eslint/no-explicit-any": [
-      "warn",
-      {
-        "ignoreRestArgs": true
-      }
-    ],
-    "max-len": [
-      "warn",
-      {
-        "code": 100,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreComments": true
-      }
-    ],
     "no-plusplus": [
       "error",
       {
         "allowForLoopAfterthoughts": true
       }
     ],
-    "@typescript-eslint/consistent-type-imports": "warn",
     "react/jsx-key": "error",
-    "import/no-extraneous-dependencies": "error",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
-    "react/jsx-boolean-value": "off",
-    "react/prop-types": "off",
-    "react/no-unescaped-entities": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "react/jsx-wrap-multilines": "off",
-    "react/destructuring-assignment": "off",
     "no-console": "warn",
-    "no-alert": "warn"
+    "no-alert": "warn",
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "@typescript-eslint/no-namespace": "off"
   }
 }

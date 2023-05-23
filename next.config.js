@@ -2,10 +2,13 @@ const { i18n } = require('./next-i18next.config')
 
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    domains: ['events.h1y4.la.idrivee2-31.com'],
+  modularizeImports: {
+    '@mui/material': {
+      transform: '@mui/material/{{member}}',
+    },
+    '@mui/icons-material': {
+      transform: '@mui/icons-material/{{member}}',
+    },
   },
   i18n,
   async redirects() {
